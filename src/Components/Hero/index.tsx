@@ -3,6 +3,7 @@
 import {useEffect} from "react";
 import {Image} from "@nextui-org/react";
 import "./style.css";
+import {Tooltip} from "@nextui-org/react";
 
 interface AnimatedElement extends Element {
   getAttribute(attributeName: string): string;
@@ -42,7 +43,7 @@ const Hero = () => {
         data-delay="1500"
       >
         <p className="text txt-center">
-          Aficionado de Velez, equipo muy grande y mejor del mundihno de
+          Aficionado de Velez, equipo muito grande y mejor do mundihno de
           fúchibol.
         </p>
       </div>
@@ -53,12 +54,17 @@ const Hero = () => {
         className="has-animation animation-rtl flex justify-center"
         data-delay="2000"
       >
-        <Image
-          src="https://velez.com.ar/cdn/grafica/escudo-borde.svg"
-          width="50"
-          height="60"
-          alt="Vélez"
-        />
+        <Tooltip
+          content="P.D. No puedes devolver la transferencia, ¡porque si no, Vélez desciende!"
+          className="tlt"
+        >
+          <Image
+            src="https://velez.com.ar/cdn/grafica/escudo-borde.svg"
+            width="50"
+            height="60"
+            alt="Vélez"
+          />
+        </Tooltip>
       </div>
 
       <br />

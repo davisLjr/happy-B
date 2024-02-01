@@ -48,13 +48,13 @@ export default function Home() {
                   <h1>particula</h1>
                 </BgC>
                 <h2 className="title-m twhite">
-                  El equipo de Maquetado Jesus, Davis y Victoria, te deseamos un
-                  :
+                  Con cariño, el talentoso equipo de Maquetado Jesús, Davis y
+                  Victoria, te desea:
                 </h2>
                 <LetterHappy />
                 <h3 className="title-s twhite">
-                  Que puedas lograr todas tus metas propuestas y que cumplas
-                  muchos más
+                  Que todos tus sueños se hagan realidad en este nuevo año de
+                  vida. ¡Disfruta al máximo!
                 </h3>
               </div>
             </div>

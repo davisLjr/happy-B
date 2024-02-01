@@ -30,7 +30,8 @@ const LetterHappy: React.FC = () => {
       <span className="letter-c color3">A</span>
       <span className="letter-c color4">Ñ</span>
       <span className="letter-c color5">O</span>
-      <span className="letter-c color5">S</span>
+      <span className="letter-c color1">S</span>
+      <span className="letter-c color2">!</span>
     </div>
   );
 };
