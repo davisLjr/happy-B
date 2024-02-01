@@ -17,17 +17,108 @@
 }
 
 body {
+  /* height: 167vh; */
+  overflow-x: hidden !important;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+
+body > div {
+  height: 100%;
+  overflow: hidden;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.boxing {
+  position: relative;
+  height: 100%;
+}
+
+/* .content-custom {
+  display: none;
+} */
+
+.fadeIn-custom {
+  animation: fadeIn 0.5s ease-in-out;
+  height: 100%;
+}
+
+@keyframes fadeIn-custom {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.title-m {
+  color: #202020;
+  font-family: monospace;
+  text-align: center;
+  font-size: 3rem;
+  text-wrap:balanced;
+  width: 60%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-weight: 800;
+  padding: 4rem 0 2rem;
+}
+@media (max-width: 540px) {
+  .title-m {
+    width: 100%;
+    font-size: 2rem;
+  }
+}
+
+.title-s {
+  color: #202020;
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.5rem;
+  text-wrap: balance;
+  font-weight: 400;
+  padding: 4rem 0 2rem;
+}
+
+.h-custom {
+  min-height: 600px;
+}
+
+.letter {
+
+  p {
+    margin-bottom: 1rem;
+  }
+}
+
+.bdark {
+  background-color: #202020;
+}
+
+.twhite {
+  color: white;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.custom-box {
+  height: 150px;
+  padding: 100px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }

@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee+Inline");
+
+#demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: 100%;
+}
+.letter-c {
+  font-size: 8vw;
+  font-weight: 200;
+}
+.color1 {
+  color: #ff6347;
+}
+.color2 {
+  color: #aa0555;
+}
+.color3 {
+  color: #ff1493;
+}
+.color4 {
+  color: #09a;
+}
+.color5 {
+  color: #0a8;
+}
+
+.letter-container span {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.color1 {
+  animation-delay: 3s;
+}
+
+.color2 {
+  animation-delay: 3.5s;
+}
+
+.color3 {
+  animation-delay: 4s;
+}
+
+.color4 {
+  animation-delay: 4.5s;
+}
+
+.color5 {
+  animation-delay: 5s;
+}
