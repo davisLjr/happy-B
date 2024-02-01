@@ -16,6 +16,10 @@
   }
 }
 
+::-webkit-scrollbar {
+  display: none !important;
+}
+
 body {
   /* height: 167vh; */
   overflow-x: hidden !important;
@@ -26,6 +30,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb)); */
+
+
 }
 
 body > div {
