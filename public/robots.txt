@@ -1,0 +1,17 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /admin
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+
+# Host
+Host: https://happy-b-seven.vercel.app
+
+# Sitemaps
+Sitemap: https://happy-b-seven.vercel.app/sitemap.xml
